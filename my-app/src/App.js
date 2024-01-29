@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from './components/SearchBar';
 // import FunctionalGreeting from "./components/FunctionalGreeting";
 // import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -15,7 +16,9 @@ import './App.css';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import ControlledForm from './components/ControlledForm';
+// import UncontrolledForm from './components/UncontrolledForm';
 
 function App() {
   return (
@@ -34,8 +37,11 @@ function App() {
       <MethodsAsPropsParent />
       <RenderingLists />
       <LifeCyclesCDM />
-      <LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      <LifeCyclesCDU /> 
+      <LifeCyclesCWU /> 
+      <ControlledForm />
+      <UncontrolledForm /> */}
+      <SearchBar />
     </div>
   );
 }
