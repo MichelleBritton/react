@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import SearchBar from './components/SearchBar';
+import UseEffectCounter from './components/UseEffectCounter';
+// import HooksCounter from './components/HooksCounter';
+// import UseStateWithObjects from './components/UseStateWithObjects';
+// import UseStateWithArrays from './components/UseStateWithArrays';
+// import ControlledFormHooks from './components/ControlledFormHooks';
+// import SearchBar from './components/SearchBar';
 // import FunctionalGreeting from "./components/FunctionalGreeting";
 // import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -40,8 +45,13 @@ function App() {
       <LifeCyclesCDU /> 
       <LifeCyclesCWU /> 
       <ControlledForm />
-      <UncontrolledForm /> */}
+      <UncontrolledForm />
       <SearchBar />
+      <ControlledFormHooks />
+      <UseStateWithArrays />
+      <UseStateWithObjects />
+      <HooksCounter /> */}
+      <UseEffectCounter />
     </div>
   );
 }
