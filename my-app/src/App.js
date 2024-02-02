@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPPost from './components/HTTPPost';
+// import HTTPRequests from './components/HTTPRequests';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import HooksCounter from './components/HooksCounter';
 // import UseStateWithObjects from './components/UseStateWithObjects';
@@ -52,8 +54,10 @@ function App() {
       <UseStateWithArrays />
       <UseStateWithObjects />
       <HooksCounter />
-      <UseEffectCounter /> */}
+      <UseEffectCounter />
       <UseEffectCounterContainer />
+      <HTTPRequests /> */}
+      <HTTPPost />
     </div>
   );
 }
