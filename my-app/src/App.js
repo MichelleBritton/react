@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
+// import HTTPPost from './components/HTTPPost';
 // import HTTPRequests from './components/HTTPRequests';
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import UseEffectCounter from './components/UseEffectCounter';
@@ -56,8 +57,9 @@ function App() {
       <HooksCounter />
       <UseEffectCounter />
       <UseEffectCounterContainer />
-      <HTTPRequests /> */}
-      <HTTPPost />
+      <HTTPRequests />
+      <HTTPPost /> */}
+      <HTTPHooks />
     </div>
   );
 }
